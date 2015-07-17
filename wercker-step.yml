@@ -1,0 +1,16 @@
+name: packer-push
+version: 0.0.1
+description: A Wercker step for pushing packer templates into ATLAS.
+keywords:
+  - packer
+  - atlas
+properties:
+  packer_versopm:
+    type: string
+    required: no
+  packer_folder:
+    type: string
+    required: no
+  packer_templates:
+    type: string
+    required: no
